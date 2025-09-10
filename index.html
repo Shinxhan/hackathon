@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AttendIQ - SIH 2024 Slide Content</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #1a365d;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #3182ce;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #2d3748;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 30px 0 20px 0;
+            font-size: 1.5em;
+        }
+        
+        h3 {
+            color: #2b6cb0;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+            border-left: 4px solid #3182ce;
+            padding-left: 15px;
+        }
+        
+        .slide-content {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .challenges {
+            background: #fed7d7;
+            border-left: 5px solid #e53e3e;
+        }
+        
+        .solutions {
+            background: #c6f6d5;
+            border-left: 5px solid #38a169;
+        }
+        
+        .innovation {
+            background: #bee3f8;
+            border-left: 5px solid #3182ce;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin: 8px 0;
+            padding: 5px 0;
+        }
+        
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+        
+        .tech-item {
+            background: #edf2f7;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 3px solid #4299e1;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: white;
+        }
+        
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background: #4299e1;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .flowchart {
+            background: #1a202c;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            margin: 15px 0;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+        
+        .benefit-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin: 15px 0;
+        }
+        
+        .phase {
+            flex: 1;
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border-top: 4px solid #4299e1;
+        }
+        
+        .copy-btn {
+            background: #4299e1;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        
+        .copy-btn:hover {
+            background: #3182ce;
+        }
+        
+        @media print {
+            body { background: white; }
+            .container { box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 SMART INDIA HACKATHON 2024 — AttendIQ</h1>
+        
+        <h2>📋 Slide 1: Title Slide</h2>
+        <div class="slide-content">
+            <strong>SMART INDIA HACKATHON 2024</strong><br>
+            <strong style="font-size: 1.4em; color: #2b6cb0;">AttendIQ</strong>
+            
+            <ul style="margin-top: 15px;">
+                <li><strong>Problem Statement ID</strong> – [Your PS ID]</li>
+                <li><strong>Problem Statement</strong> – A system to automate student attendance and provide real-time analytics, predictions, and insights</li>
+                <li><strong>Theme</strong> – Smart Education</li>
+                <li><strong>PS Category</strong> – Software</li>
+                <li><strong>Team ID</strong> – [Your Team ID]</li>
+                <li><strong>Team Name</strong> – [Your Team Name]</li>
+            </ul>
+        </div>
+
+        <h2>📋 Slide 2: Challenges and Solutions</h2>
+        <div class="slide-content">
+            <p><strong>Our proposed web-based platform AttendIQ helps educational institutions automate attendance management and provide comprehensive analytics for better academic decisions.</strong></p>
+        </div>
+        
+        <h3>🚨 Challenges Faced by Educational Institutions</h3>
+        <div class="slide-content challenges">
+            <ul>
+                <li><strong>Lack of Real-Time Visibility:</strong> Admins and faculty struggle to view up-to-date attendance patterns and identify at-risk students.</li>
+                <li><strong>Manual Processes:</strong> Roll-calls and manual data entry are time-consuming, error-prone, and difficult to audit.</li>
+                <li><strong>Inconsistent Analytics:</strong> Institutions lack standardized dashboards for class/subject-wise trends, cohort comparisons, and forecasting.</li>
+                <li><strong>Student Engagement Gaps:</strong> Students have limited visibility into goals, progress, streaks, and actionable recommendations.</li>
+            </ul>
+        </div>
+
+        <h3>✅ Proposed Solutions To Address the Challenges</h3>
+        <div class="slide-content solutions">
+            <ul>
+                <li><strong>Centralized Attendance System:</strong> A web and mobile platform that automates attendance using secure, rotating QR codes with time-based expiry (20–30s).</li>
+                <li><strong>Real-Time Analytics:</strong> Class, subject, and cohort dashboards; weekly/monthly trends; goal tracking; days-to-target metrics.</li>
+                <li><strong>AI-Driven Insights:</strong> Risk prediction (below 60/75%), anomaly detection (suspicious scan patterns), recommendations for improvement.</li>
+                <li><strong>Seamless Faculty Workflow:</strong> Instant attendance windows, quick overrides, and live class-level visibility.</li>
+            </ul>
+        </div>
+
+        <h3>💡 Innovation and Uniqueness</h3>
+        <div class="slide-content innovation">
+            <ul>
+                <li><strong>AI-Powered Analytics:</strong> Pattern recognition, risk scoring, attendance forecasting, streak analysis.</li>
+                <li><strong>QR Code Security:</strong> Time-based rotating QR codes to ensure presence during a valid window.</li>
+                <li><strong>Real-Time Dashboard:</strong> Interactive charts, alerts, goal tracking, and cohort benchmarks for faculty and students.</li>
+            </ul>
+        </div>
+
+        <h2>📋 Slide 3: Technical Approach</h2>
+        <div class="flowchart">
+            Data Collection → Centralized Server → AI Analytics Engine → Student/Faculty Dashboards
+        </div>
+
+        <div class="tech-stack">
+            <div class="tech-item">
+                <h3>📱 Data Collection</h3>
+                <strong>QR Attendance Module</strong>
+                <ul>
+                    <li>Dynamic QR Generation (20–30s rotation)</li>
+                    <li>Time-Based Validation (server-synced windows)</li>
+                    <li>Class/Period Scheduling (start/end windows)</li>
+                    <li>Faculty Override Window</li>
+                </ul>
+            </div>
+
+            <div class="tech-item">
+                <h3>🖥️ Centralized Server</h3>
+                <ul>
+                    <li>REST APIs (Django + DRF)</li>
+                    <li>Attendance, Classes, Subjects, Users, Goals</li>
+                    <li>PostgreSQL (prod), SQLite (dev)</li>
+                    <li>Role-based Access (Student/Faculty/Admin)</li>
+                </ul>
+            </div>
+
+            <div class="tech-item">
+                <h3>🤖 AI Analytics Engine</h3>
+                <ul>
+                    <li><strong>Feature Store:</strong> streaks, rolling averages, day-of-week patterns, subject load</li>
+                    <li><strong>Models:</strong> risk classification (scikit-learn/XGBoost), anomalies (Isolation Forest), forecasting (Prophet)</li>
+                    <li><strong>Outputs:</strong> risk level, days to 60/75, trend indicators, recommendations</li>
+                </ul>
+            </div>
+
+            <div class="tech-item">
+                <h3>📊 Student/Faculty Dashboards</h3>
+                <ul>
+                    <li>Real-Time Charts (subject, week, month)</li>
+                    <li>Goals & Progress (days-to-target)</li>
+                    <li>Alerts (missed windows, declining trends)</li>
+                    <li>Exportable Reports</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>🛠️ Technology Stack</h3>
+        <div class="slide-content">
+            <ul>
+                <li><strong>Frontend:</strong> React.js, Tailwind CSS, Chart.js</li>
+                <li><strong>Backend:</strong> Django 5, Django REST Framework</li>
+                <li><strong>Database:</strong> PostgreSQL (prod), SQLite (dev)</li>
+                <li><strong>Auth:</strong> JWT-based sessions, role policies</li>
+                <li><strong>AI/ML:</strong> pandas, numpy, scikit-learn, XGBoost, Prophet</li>
+                <li><strong>Deployment:</strong> Docker, Docker Compose, Nginx, Gunicorn</li>
+                <li><strong>Cloud:</strong> Cloud-based infrastructure with auto-scaling</li>
+            </ul>
+        </div>
+
+        <h3>💰 Business Model (Subscription-based)</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+            <div class="slide-content">
+                <h4>Free User</h4>
+                <ul>
+                    <li>Basic dashboards</li>
+                    <li>Limited historical data (3 months)</li>
+                    <li>Standard reports</li>
+                </ul>
+            </div>
+            <div class="slide-content">
+                <h4>Pro User</h4>
+                <ul>
+                    <li>Advanced AI insights</li>
+                    <li>Extended historical data (3+ years)</li>
+                    <li>Cohort benchmarks and exports</li>
+                    <li>Priority support</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>📋 Slide 4: Feasibility and Viability</h2>
+        
+        <h3>⚡ Features</h3>
+        <div class="slide-content">
+            <ul>
+                <li><strong>Automated QR Attendance:</strong> Time-based rotating QR codes with server validation.</li>
+                <li><strong>Real-Time Dashboards:</strong> Overall %, weekly/monthly trends, subject-wise breakdowns.</li>
+                <li><strong>AI Insights:</strong> Risk of falling below thresholds (60/75%), forecasting, anomaly alerts.</li>
+                <li><strong>Goal Management:</strong> Set targets (60/75/90%), track days-to-target, see progress.</li>
+                <li><strong>Calendar View:</strong> Daily status, period-level history, per-subject details.</li>
+                <li><strong>Reporting:</strong> Faculty-ready downloads, term summaries, cohort stats.</li>
+            </ul>
+        </div>
+
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <h4>🔧 Technical Feasibility</h4>
+                <p>AttendIQ uses established web technologies (Django, React) with proven ML libraries (scikit-learn, Prophet, XGBoost) and containerized deployment for reliability and scalability.</p>
+            </div>
+            <div class="benefit-card">
+                <h4>💰 Economic Feasibility</h4>
+                <p>Automated workflows reduce faculty time, improve retention through early intervention, and provide data-driven evidence for planning and accreditation.</p>
+            </div>
+            <div class="benefit-card">
+                <h4>⚙️ Operational Feasibility</h4>
+                <p>Simple adoption: QR-based class flow for faculty, intuitive dashboards for students, minimal manual intervention, clear documentation and training.</p>
+            </div>
+        </div>
+
+        <h3>🎯 Viability</h3>
+        <div class="slide-content">
+            <ul>
+                <li><strong>Adaptability:</strong> Works with different timetables, grading systems, and class structures.</li>
+                <li><strong>Scalability:</strong> Cloud-ready, multi-tenant architecture, environment-based configs.</li>
+            </ul>
+        </div>
+
+        <h3>⚠️ Challenges & Solutions</h3>
+        <table>
+            <thead>
+                <tr><th>Potential Challenges</th><th>Overcoming Strategies</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Adoption resistance</td><td>Clear faculty tools, quick overrides, training modules</td></tr>
+                <tr><td>Network/device issues</td><td>Offline-ready buffers, retry windows, cached tokens</td></tr>
+                <tr><td>Data privacy & security</td><td>JWT, TLS, role-based access, audit logs</td></tr>
+                <tr><td>Model accuracy early on</td><td>Feedback loops, continuous retraining, human-in-the-loop</td></tr>
+            </tbody>
+        </table>
+
+        <h2>📋 Slide 5: Impact and Benefits</h2>
+        
+        <h3>🔄 Flowchart</h3>
+        <div class="flowchart">
+            Class Start → QR Window Open → Student Scan → Validation → Attendance Marked<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Faculty Monitor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI Risk Analysis<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alerts & Reports&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recommendations & Goals
+        </div>
+
+        <h3>🎯 Impact on Target Audience</h3>
+        <div class="slide-content">
+            <ul>
+                <li>Fast, accurate attendance collection with reduced manual workload</li>
+                <li>Early identification of at-risk students and declining trends</li>
+                <li>Transparent student engagement through goals and progress</li>
+                <li>Reliable data for academic planning and accreditation</li>
+            </ul>
+        </div>
+
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <h4>💰 Economic Benefits</h4>
+                <ul>
+                    <li>Reduced faculty time per class/term</li>
+                    <li>Better retention and reduced dropouts</li>
+                    <li>Optimized scheduling and resource usage</li>
+                </ul>
+            </div>
+            <div class="benefit-card">
+                <h4>👥 Social Benefits</h4>
+                <ul>
+                    <li>Improved student accountability and performance</li>
+                    <li>Equitable support for at-risk students</li>
+                    <li>Data-driven mentoring</li>
+                </ul>
+            </div>
+            <div class="benefit-card">
+                <h4>🏛️ Institutional Benefits</h4>
+                <ul>
+                    <li>Accreditation-ready evidence and documentation</li>
+                    <li>Real-time academic health monitoring</li>
+                    <li>Higher satisfaction among faculty and students</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>📋 Slide 6: Prototype and References</h2>
+        
+        <h3>🖥️ Prototype Features</h3>
+        <div class="slide-content">
+            <ul>
+                <li><strong>Dashboard:</strong> Overall %, best/worst subjects, weekly trends, streaks</li>
+                <li><strong>Class View:</strong> Live attendance window, participant list, quick overrides</li>
+                <li><strong>Student View:</strong> Goals, streaks, days-to-target, recommendations</li>
+                <li><strong>Calendar:</strong> Day/period level history with subject tags</li>
+            </ul>
+        </div>
+
+        <h3>📚 Research and References</h3>
+        <table>
+            <thead>
+                <tr><th>Reference</th><th>Link</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Django Documentation</td><td>https://docs.djangoproject.com/en/5.0/</td></tr>
+                <tr><td>React Documentation</td><td>https://react.dev/learn</td></tr>
+                <tr><td>Chart.js Documentation</td><td>https://www.chartjs.org/docs/latest/</td></tr>
+                <tr><td>Prophet (Forecasting)</td><td>https://facebook.github.io/prophet/</td></tr>
+                <tr><td>scikit-learn User Guide</td><td>https://scikit-learn.org/stable/user_guide.html</td></tr>
+                <tr><td>XGBoost Docs</td><td>https://xgboost.readthedocs.io/</td></tr>
+            </tbody>
+        </table>
+
+        <h2>📋 Slide 7: Implementation Timeline (Optional)</h2>
+        <div class="timeline">
+            <div class="phase">
+                <h4>📅 Phase 1 (Weeks 1–2): Core Platform</h4>
+                <ul>
+                    <li>QR generation/validation</li>
+                    <li>Class schedules</li>
+                    <li>Baseline dashboards</li>
+                </ul>
+            </div>
+            <div class="phase">
+                <h4>📅 Phase 2 (Weeks 3–4): AI Analytics</h4>
+                <ul>
+                    <li>Risk scoring</li>
+                    <li>Forecasting (Prophet)</li>
+                    <li>Anomaly detection</li>
+                </ul>
+            </div>
+            <div class="phase">
+                <h4>📅 Phase 3 (Weeks 5–6): Deployment</h4>
+                <ul>
+                    <li>Exportable reports</li>
+                    <li>Production build</li>
+                    <li>Cloud deployment, training</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>📋 Slide 8: Team and Next Steps (Optional)</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div class="slide-content">
+                <h3>👥 Team Expertise</h3>
+                <ul>
+                    <li>Full-stack (Django/React)</li>
+                    <li>Data Science/ML</li>
+                    <li>DevOps/Cloud</li>
+                    <li>UI/UX</li>
+                </ul>
+            </div>
+            <div class="slide-content">
+                <h3>🚀 Next Steps</h3>
+                <ol>
+                    <li>Pilot with a department/class</li>
+                    <li>Expand AI features with feedback loops</li>
+                    <li>Harden security & audit trails</li>
+                    <li>Scale to multi-institution</li>
+                </ol>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin: 30px 0; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 10px;">
+            <h3>🎉 Ready for SIH 2024 Presentation!</h3>
+            <p>This content is formatted exactly like the Jal Darpan PDF for professional presentation.</p>
+        </div>
+    </div>
+
+    <script>
+        // Add copy functionality for easier use
+        function addCopyButtons() {
+            const sections = document.querySelectorAll('h2, h3');
+            sections.forEach(section => {
+                const button = document.createElement('button');
+                button.textContent = '📋 Copy Section';
+                button.className = 'copy-btn';
+                button.onclick = () => {
+                    let content = section.textContent;
+                    let nextElement = section.nextElementSibling;
+                    while (nextElement && !nextElement.matches('h2, h3')) {
+                        content += '\n' + nextElement.textContent;
+                        nextElement = nextElement.nextElementSibling;
+                    }
+                    navigator.clipboard.writeText(content);
+                    button.textContent = '✅ Copied!';
+                    setTimeout(() => button.textContent = '📋 Copy Section', 2000);
+                };
+                section.appendChild(button);
+            });
+        }
+        
+        // addCopyButtons(); // Uncomment if you want copy buttons
+    </script>
+</body>
+</html>
